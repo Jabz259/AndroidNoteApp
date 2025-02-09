@@ -1,11 +1,9 @@
-package com.example.todolist.viewmodels;
-
-import android.app.Application;
+package com.example.AndroidNoteApp.viewmodels;
 
 import androidx.lifecycle.ViewModel;
 
 
-import com.example.todolist.model.Note;
+import com.example.AndroidNoteApp.model.Note;
 
 import java.util.ArrayList;
 

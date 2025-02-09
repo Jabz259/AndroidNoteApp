@@ -1,4 +1,4 @@
-package com.example.todolist.model;
+package com.example.AndroidNoteApp.model;
 
 import androidx.room.ColumnInfo;
 import androidx.room.Entity;
@@ -14,7 +14,6 @@ public class Note {
 
     @ColumnInfo(name = "note_description")
     public String noteDesc;
-
 
 //    creating a constructor
 

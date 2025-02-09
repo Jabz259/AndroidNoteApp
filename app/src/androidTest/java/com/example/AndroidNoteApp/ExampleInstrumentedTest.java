@@ -1,4 +1,4 @@
-package com.example.todolist;
+package com.example.AndroidNoteApp;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.example.todolist", appContext.getPackageName());
+        assertEquals("com.example.AndroidNoteApp", appContext.getPackageName());
     }
 }

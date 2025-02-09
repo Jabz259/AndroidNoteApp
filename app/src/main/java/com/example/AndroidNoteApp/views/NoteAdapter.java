@@ -1,4 +1,4 @@
-package com.example.todolist.views;
+package com.example.AndroidNoteApp.views;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -7,7 +7,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.todolist.model.Note;
+import com.example.AndroidNoteApp.model.Note;
 
 import java.util.List;
 

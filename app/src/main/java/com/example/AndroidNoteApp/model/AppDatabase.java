@@ -1,4 +1,4 @@
-package com.example.todolist.model;
+package com.example.AndroidNoteApp.model;
 
 import androidx.room.Database;
 import androidx.room.RoomDatabase;

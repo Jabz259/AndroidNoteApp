@@ -1,4 +1,4 @@
-package com.example.todolist.views;
+package com.example.AndroidNoteApp.views;
 
 import android.os.Bundle;
 import android.util.Log;
@@ -8,18 +8,16 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.room.Room;
 
-import com.example.todolist.R;
-import com.example.todolist.model.AppDatabase;
-import com.example.todolist.model.Note;
-import com.example.todolist.model.NoteDAO;
-import com.example.todolist.viewmodels.NoteViewModel;
+import com.example.AndroidNoteApp.R;
+import com.example.AndroidNoteApp.model.AppDatabase;
+import com.example.AndroidNoteApp.model.Note;
+import com.example.AndroidNoteApp.model.NoteDAO;
+import com.example.AndroidNoteApp.viewmodels.NoteViewModel;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
@@ -92,7 +90,7 @@ public class MainActivity extends AppCompatActivity {
                 recyclerView.setAdapter(noteAdapter);
 
                 for (Note note: storedNotes) {
-                    Log.d("NOTES IN DATABASE", "Subject: " + note.noteSubject + " Description : " + note.noteDesc);
+                    Log.d("NOTES IN DATABASE", "Subject: " + note.noteSubject + " Description : " + note.noteDesc + " note ID: " + note.uid);
                 }
             });
         }).start();
