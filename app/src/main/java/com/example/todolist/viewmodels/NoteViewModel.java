@@ -1,6 +1,9 @@
 package com.example.todolist.viewmodels;
 
+import android.app.Application;
+
 import androidx.lifecycle.ViewModel;
+
 
 import com.example.todolist.model.Note;
 
@@ -29,8 +32,5 @@ public class NoteViewModel extends ViewModel {
     public int getNoteCount() {
         return noteList.size();
     }
-
-
-
 
 }
